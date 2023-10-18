@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 import Hero from './components/Hero/Hero'
-import About from './components/About'
+import About from './components/About/About'
 import Testimonials from './components/Testimonials'
 
 export default function Home() {
