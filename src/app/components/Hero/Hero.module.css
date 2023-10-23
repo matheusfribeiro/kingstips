@@ -12,11 +12,15 @@
   text-align: justify;
 }
 
-.heroBox h2 {
+.heroBox h1 {
   color: red;
   margin-bottom: 18px;
   text-transform: uppercase;
 
+}
+
+.heroBox h4 {
+  text-transform: uppercase;
 }
 
 .heroImage {

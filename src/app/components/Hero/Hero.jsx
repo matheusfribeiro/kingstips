@@ -5,8 +5,9 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.heroBox}>
-        <h2>Kings Tips Bets</h2>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis obcaecati magnam itaque adipisci sequi ea, veritatis tempora modi earum incidunt quam quo, eligendi iusto temporibus consequatur mollitia? Obcaecati, ipsum!</h4>
+        <h1>Kings Tips Bets</h1>
+        <h4>se você quer lucrar todos os dias com futebol ao vivo, você está no lugar certo!</h4>
+        <p>Me chamo Luciano Pacheco, mais conhecido como KingsTips e vou te ajudar com isso de forma <span>100% GRATUITA</span>.</p>
         <NeonButton />
       </div>
       <img className={styles.heroImage} src="/ktheronobgalternate.png" alt="" />

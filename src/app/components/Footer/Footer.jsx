@@ -8,14 +8,14 @@ const Footer = () => {
       <div className={styles.footerContent}>
         <a href='#' className={styles.footerLogo}>
           <img src="kingstipslogo.png" alt="Company Logo" />
-          <h2>Kings Tips</h2>
+          <h3>Kings Tips</h3>
         </a>
         <div className={styles.footerSocial}>
           <a href="https://www.instagram.com/kingstips_oficial/" target='_blank' className="social-icon">
             <FaInstagram />
             <h6>Nos siga no Instagram</h6>
           </a>
-          <a href="https://t.me/+wNpgS8lhNlRmMTUx" target='_blank' className="social-icon">
+          <a href="https://t.me/+DCah_awo2zo3Y2Ux" target='_blank' className="social-icon">
             <FaTelegram />
             <h6>Canal Gratuito do Telegram</h6>
           </a>
