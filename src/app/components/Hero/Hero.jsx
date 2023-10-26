@@ -4,6 +4,7 @@ import styles from './Hero.module.css'
 const Hero = () => {
   return (
     <section className={styles.hero}>
+    <div className={styles.heroWrapper}>
       <div className={styles.heroBox}>
         <h1>Kings Tips Bets</h1>
         <h4>se você quer lucrar todos os dias com futebol ao vivo, você está no lugar certo!</h4>
@@ -11,6 +12,7 @@ const Hero = () => {
         <NeonButton />
       </div>
       <img className={styles.heroImage} src="/ktheronobgalternate.png" alt="" />
+    </div>
     </section>
   );
 };

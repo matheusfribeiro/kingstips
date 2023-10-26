@@ -1,12 +1,13 @@
-import Carousel from "../Carousel/Carousel";
-import styles from './Testimonials.module.css'
+import React from 'react'
+import CarouselTestimonial from '../CarouselTestimonial/CarouselTestimonial'
 
 const Testimonials = () => {
   return (
     <section>
-      <Carousel />
+      <h2 className='headline'>Confira nossos Tickets PREMIADOS</h2>
+      <CarouselTestimonial />
     </section>
-  );
-};
+  )
+}
 
-export default Testimonials;
+export default Testimonials
