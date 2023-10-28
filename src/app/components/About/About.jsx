@@ -6,7 +6,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.aboutHero}></div>
       <div className={styles.info}>
-        <h2>Sobre Mim</h2>
+        
         <h3>Luciano Pacheco Analista/Suporte/CEO da Kingstips</h3>
         <p>
           Entrou no mercado buscando lucros através de grupos de tipsters

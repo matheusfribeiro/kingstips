@@ -1,6 +1,10 @@
 .wrapper {
   padding: 3rem;
   margin-bottom: 4rem;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .headline {
@@ -52,5 +56,48 @@
 .icon {
   width: 50px;
   height: 50px;
+}
+
+.wrapper .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.buttonBox a {
+  font-weight: 500;
+  background-color: #020202FA;
+  border-style: solid;
+  border-color: var(--clr-neon);
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.iconTlg {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  color: white;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper span {
+  display: inline-block;
+  line-height: 2;
+  color: white;
+  font-size: 22px;
+  
+}
+
+.buttonBox a:hover {
+  background-color: var(--clr-neon);
+  transform: scale(1.1)
 }
 

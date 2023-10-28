@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <a href='#' className={styles.footerLogo}>
-          <img src="kingstipslogo.png" alt="Company Logo" />
+          <img src="/images/kingstipslogo.png" alt="Company Logo" />
           <h3>Kings Tips</h3>
         </a>
         <div className={styles.footerSocial}>

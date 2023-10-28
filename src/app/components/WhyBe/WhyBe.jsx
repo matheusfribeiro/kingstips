@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from './WhyBe.module.css'
 import { AiOutlineFund, AiOutlineSketch } from 'react-icons/ai'
-
+import { BsTelegram } from "react-icons/bs";
 import { ImCoinDollar } from 'react-icons/im'
 
 export const WhyBe = () => {
@@ -22,6 +22,14 @@ export const WhyBe = () => {
           <ImCoinDollar className={styles.icon} />
           <p>Um serviço totalmente gratuito com análises de alta assertividade que vão te fazer evoluir como apostador.</p>
         </div>
+      </div>
+      <div className={styles.buttonBox}>
+        <a href="https://t.me/+DCah_awo2zo3Y2Ux" target='_blank'>
+          <div className={styles.buttonWrapper}>
+            <BsTelegram className={styles.iconTlg} />
+            <span>Entre no grupo agora!</span>
+          </div>
+        </a>
       </div>
     </section>
   )

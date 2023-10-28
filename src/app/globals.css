@@ -26,7 +26,7 @@ html {
 body {
   color: white;
   min-height: 100vh;
-  background-image: url(../../public/ktbg.png);
+  background-image: url(../../public/images/ktbg.png);
   background-size: cover;
   background-attachment: fixed;
 }

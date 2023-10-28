@@ -11,9 +11,9 @@ export default function Home() {
     <div>
       <main className={styles.main}>
         <Hero />
-        <WhyBe />
         <Testimonials />
         <Tickets />
+        <WhyBe />
         <About />
       </main>
       <Footer />
