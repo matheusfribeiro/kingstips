@@ -10,20 +10,20 @@ export const WhyBe = () => {
     <section className={styles.wrapper}>
       <h2 className={styles.headline}>Por que fazer parte do canal GRATUITO</h2>
       <div className={styles.boxes}>
-        <div className={styles.box}>
+        <div data-aos="zoom-in-right" className={styles.box}>
           <AiOutlineFund className={styles.icon} />
           <p>Conheça a metodologia de quem já está há 8 anos ganhando no mercado.</p>
         </div>
-        <div className={styles.box}>
+        <div data-aos="zoom-in-down" className={styles.box}>
           <AiOutlineSketch className={styles.icon} />
           <p>Acompanhe as melhores Tips do Futebol.</p>
         </div>
-        <div className={styles.box}>
+        <div data-aos="zoom-in-left" className={styles.box}>
           <ImCoinDollar className={styles.icon} />
           <p>Um serviço totalmente gratuito com análises de alta assertividade que vão te fazer evoluir como apostador.</p>
         </div>
       </div>
-      <div className={styles.buttonBox}>
+      <div data-aos="zoom-in-up" className={styles.buttonBox}>
         <a href="https://t.me/+DCah_awo2zo3Y2Ux" target='_blank'>
           <div className={styles.buttonWrapper}>
             <BsTelegram className={styles.iconTlg} />

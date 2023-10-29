@@ -4,9 +4,12 @@ import styles from './About.module.css'
 const About = () => {
   return (
     <section className={styles.about}>
-      <div className={styles.aboutHero}></div>
-      <div className={styles.info}>
+      <div data-aos="flip-right" className={styles.aboutHero}></div>
+      <div
+        data-aos="fade-left"
         
+        className={styles.info}
+      >
         <h3>Luciano Pacheco Analista/Suporte/CEO da Kingstips</h3>
         <p>
           Entrou no mercado buscando lucros através de grupos de tipsters

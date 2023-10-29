@@ -16,7 +16,7 @@ const Hero = () => {
           </h4>
           <p>
             Me chamo Luciano Pacheco, mais conhecido como KingsTips e vou te
-            ajudar com isso de forma <span>100% GRATUITA</span>.
+            ajudar com isso de forma <strong>100% GRATUITA</strong>.
           </p>
           <NeonButton />
         </div>

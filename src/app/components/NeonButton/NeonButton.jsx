@@ -5,6 +5,6 @@ import styles from './NeonButton.module.css'
 export const NeonButton = () => {
 
   return (
-    <div><a href="https://t.me/+DCah_awo2zo3Y2Ux" target='_blank' className={styles.neonButton}>Acesse o grupo FREE do Telegram</a></div>
+    <div data-aos="zoom-in-up"><a href="https://t.me/+DCah_awo2zo3Y2Ux" target='_blank' className={styles.neonButton}>Acesse o grupo FREE do Telegram</a></div>
   )
 }
