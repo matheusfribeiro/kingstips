@@ -18,7 +18,7 @@ export default function Carousel() {
   return (
     <div className="container-1">
       <div className="swiper">
-        <h2 className="headline">Confira nossos Tickets PREMIADOS</h2>
+        <h2 className="headline">Confira nossos TICKETS PREMIADOS</h2>
         <Swiper
           effect={"coverflow"}
           grabCursor={true}

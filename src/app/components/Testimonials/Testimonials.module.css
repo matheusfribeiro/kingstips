@@ -38,3 +38,9 @@
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  .testimonials {
+    margin-top: 150px;
+  }
+}

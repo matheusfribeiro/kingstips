@@ -2,7 +2,7 @@
   display: flex;
   gap: 3rem;
   height: fit-content;
-  
+  font-family: 'Space Mono', monospace;
 
 }
 
@@ -97,7 +97,7 @@
   }
 
   .heroBox p {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 0;
   }
 }

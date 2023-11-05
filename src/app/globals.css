@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 :root {
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -21,18 +23,21 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   color: white;
   min-height: 100vh;
   background-color: black;
-  overflow-x: hidden;
+  
+  
 }
 
 section {
   height: 100vh;
   padding: 3rem;
+  
   
 }
 
