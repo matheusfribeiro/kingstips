@@ -38,46 +38,43 @@ export default function Carousel() {
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
         >
-          <SwiperSlide>
-            <Image
-              src="/tickets/img_1.png" // Route of the image file
-              height={645} // Desired size with correct aspect ratio
-              width={612} // Desired size with correct aspect ratio
-              alt="tickets premiados"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/tickets/img_2.png" // Route of the image file
-              height={355} // Desired size with correct aspect ratio
-              width={314} // Desired size with correct aspect ratio
-              alt="tickets premiados"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/tickets/img_3.png" // Route of the image file
-              height={533} // Desired size with correct aspect ratio
-              width={312} // Desired size with correct aspect ratio
-              alt="tickets premiados"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/tickets/img_4.png" // Route of the image file
-              height={339} // Desired size with correct aspect ratio
-              width={323} // Desired size with correct aspect ratio
-              alt="tickets premiados"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/tickets/img_5.png" // Route of the image file
-              height={533} // Desired size with correct aspect ratio
-              width={309} // Desired size with correct aspect ratio
-              alt="tickets premiados"
-            />
-          </SwiperSlide>
+          <div className="imagesWrapper">
+            <SwiperSlide>
+              <Image
+                src="/tickets/img_1.png" // Route of the image file
+                fill
+                alt="tickets premiados"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/tickets/img_2.png" // Route of the image file
+                fill
+                alt="tickets premiados"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/tickets/img_3.png" // Route of the image file
+                fill
+                alt="tickets premiados"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/tickets/img_4.png" // Route of the image file
+                fill
+                alt="tickets premiados"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/tickets/img_5.png" // Route of the image file
+                fill
+                alt="tickets premiados"
+              />
+            </SwiperSlide>
+          </div>
           
         </Swiper>
       </div>

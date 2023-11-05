@@ -29,6 +29,7 @@
   margin-bottom: 10px;
   text-align: center;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .info p {
@@ -37,4 +38,39 @@
   font-weight: 500;
   line-height: 1.3em;
   letter-spacing: 0.3px;
+}
+
+
+@media (max-width: 820px) {
+  .about {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .info {
+    width: 100%;
+    text-align: justify;
+    
+  }
+
+  .info h3 {
+    font-size: 30px;
+  }
+
+  .info p {
+    font-size: 24px;
+  }
+  
+  .aboutHero {
+    margin: 0 auto 25px auto;
+    width: 300px;
+    height: 350px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 590px) {
+  .aboutHero {
+    width: 100%;
+  }
 }

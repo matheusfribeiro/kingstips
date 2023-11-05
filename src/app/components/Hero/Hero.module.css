@@ -41,4 +41,63 @@
 }
 
 
+@media (max-width: 820px) {
+  .hero h1 {
+    margin: 25px auto 60px auto;
+    font-size: 50px;
+  }
 
+  .heroWrapper {
+    flex-direction: column;
+    
+  }
+
+  .heroImage {
+    display: none;
+  }
+
+  .heroBox {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .heroBox h4 {
+    font-size: 34px;
+    margin-bottom: 25px;
+  }
+
+  .heroBox p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width:690px) {
+  .heroBox h4 {
+    font-size: 28px;
+    
+  }
+
+  .heroBox p {
+    font-size: 24px;
+    
+  }
+}
+
+@media (max-width:600px) {
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .heroBox h4 {
+    font-size: 24px;
+  }
+
+  .heroBox p {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+}

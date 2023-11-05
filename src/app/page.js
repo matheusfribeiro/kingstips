@@ -11,8 +11,8 @@ export default function Home() {
     <div>
       <main className={styles.main}>
         <Hero />
-        <Testimonials />
         <Tickets />
+        <Testimonials />
         <WhyBe />
         <About />
       </main>

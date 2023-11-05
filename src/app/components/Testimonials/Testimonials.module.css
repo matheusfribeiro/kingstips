@@ -1,0 +1,40 @@
+
+.headline {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+
+
+.headline::before,
+.headline::after {
+  content: "";
+  display: inline-block;
+  width: 180px; 
+  height: 3px; 
+  background-color: var(--clr-neon); 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headline::before {
+  left: 0;
+}
+
+.headline::after {
+  right: 0;
+}
+
+@media (max-width: 820px) {
+  .headline {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .headline::before,
+  .headline::after {
+    display: none;
+  }
+}

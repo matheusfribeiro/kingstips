@@ -26,14 +26,21 @@ html {
 body {
   color: white;
   min-height: 100vh;
-  background-image: url(../../public/images/ktbg.png);
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: black;
+  overflow-x: hidden;
 }
 
 section {
   height: 100vh;
   padding: 3rem;
+  
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 5px;
+    
+  }
 }
 
 
