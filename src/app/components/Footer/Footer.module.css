@@ -117,3 +117,10 @@
     display: none;
   }
 }
+
+@media (min-height: 200px) and (max-height: 600px) {
+  .footerLogo img {
+    display: none;
+  }
+  
+}

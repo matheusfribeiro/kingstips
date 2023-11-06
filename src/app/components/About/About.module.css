@@ -38,6 +38,7 @@
   font-weight: 500;
   line-height: 1.3em;
   letter-spacing: 0.3px;
+
 }
 
 
@@ -72,5 +73,10 @@
 @media (max-width: 590px) {
   .aboutHero {
     width: 100%;
+  }
+
+  .info p {
+    font-size: 20px;
+    text-align: justify;
   }
 }

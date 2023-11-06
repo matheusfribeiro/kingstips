@@ -101,3 +101,18 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-height: 200px) and (max-height: 600px) {
+  .hero h1 {
+    font-size: 30px;
+    
+  }
+
+  .heroBox h4 {
+    font-size: 20px;
+  }
+
+  .heroBox p {
+    font-size: 18px;
+  }
+}
